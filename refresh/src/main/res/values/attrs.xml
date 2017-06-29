@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PtrFrameLayout">
+        <attr name="ptr_header_id" format="reference" />
+        <attr name="ptr_content_id" format="reference" />
+        <attr name="ptr_footer_id" format="reference" />
+        <attr name="ptr_resistance" format="float" />
+        <attr name="ptr_duration_to_close" format="integer" />
+        <attr name="ptr_duration_to_close_header" format="integer" />
+        <attr name="ptr_ratio_of_header_height_to_refresh" format="float" />
+        <attr name="ptr_keep_header_when_refresh" format="boolean" />
+        <attr name="ptr_pull_to_fresh" format="boolean" />
+        <attr name="ptr_refresh_mode" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="PtrClassicHeader">
+        <attr name="ptr_rotate_ani_time" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="HeadView">
+        <attr name="hv_drawable_height" format="dimension" />
+        <attr name="hv_drawable_width" format="dimension" />
+        <attr name="hv_drawable_marginLeft" format="dimension" />
+        <attr name="hv_text_marginLeft" format="dimension" />
+        <attr name="hv_text" format="string" />
+        <attr name="hv_text_size" format="dimension" />
+        <attr name="hv_text_color" format="color|reference" />
+        <attr name="hv_drawable" format="reference|color" />
+    </declare-styleable>
+</resources>
