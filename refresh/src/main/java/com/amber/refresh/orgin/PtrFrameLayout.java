@@ -1255,4 +1255,6 @@ public class PtrFrameLayout extends ViewGroup {
             mIsRunning = true;
         }
     }
+
+
 }
